@@ -34,6 +34,7 @@ int main(void){
 	//確率密度関数
 
 	while(1){
+		//試行回数：一回ビットを送り測定->そもそもtryで試行回数はおかしい->alceが送るqビットの数（=bobがそくていする回数）
 		printf("-試行回数を入力： ");		//stdio.h
 		scanf("%d",&try);			//stdio.h
 		if(0<try){
